@@ -1,0 +1,8 @@
+const path = require('path');
+
+module.exports = {
+    config: path.resolve('src/database/postgres/config/config.js'), // Path to Sequelize config
+    'migrations-path': path.resolve('src/database/postgres/migrations'), // Path to migrations
+    'models-path': path.resolve('src/models'), // Path to models 
+    'seeders-path': path.resolve('src/database/postgres/seeders'), // Path to seeders
+};
